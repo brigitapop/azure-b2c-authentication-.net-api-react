@@ -2,13 +2,15 @@
 
 This documentation page provides the steps on how to implement authentication for a single-page application using Azure AD B2C. 
 
-The single-page application is implemented in react and calls an API implemented in ASP.Net Core. 
+The single-page application is implemented in react, and calls an API implemented in ASP.Net Core. 
 - [Create a new React app](https://reactjs.org/docs/create-a-new-react-app.html)
 - [Create a new ASP.NET Core API](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio)
 
 
 The interaction between the single-page application and Azure AD B2C will look as in the diagram below: 
-https://github.com/brigitapop/azure-b2c-authentication/blob/main/diagram.png
+
+![alt text](https://github.com/brigitapop/azure-b2c-authentication/blob/main/diagram.png?raw=true)
+
 
 
 Before your applications can interact with Azure AD B2C, they must be registered in a tenant that you manage.

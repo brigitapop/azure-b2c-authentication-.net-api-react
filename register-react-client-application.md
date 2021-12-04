@@ -1,13 +1,12 @@
-
-
+# Register react single-page application
 
 - Go to App registrations and select New registration
 - Add redirect URL 
-- 
+
 ![alt text](https://github.com/brigitapop/azure-b2c-authentication/blob/main/1-register-client-add-redirect-uri.png?raw=true)
 
 - Select the tokens you would like to be issued by the authorization endpoint
-- 
+
 ![alt text](https://github.com/brigitapop/azure-b2c-authentication/blob/main/2-register-client-add-token.png)
 
 See more details regarding [Tokens in Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tokens-overview)

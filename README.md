@@ -40,7 +40,7 @@ The next step is to define the user interaction with the application. Azure AD B
 After the user journey is created, the single-page application can be configured to interact with Azure B2C. 
 
 - [Setup front-end application to interact with AAD B2C](https://tfs17.evozon.com/tfs/DotNetDocumentation/DotNetDocumentation/_wiki/wikis/DotNetDocumentation.wiki/23/Setup-front-end-application-to-interact-with-AAD-B2C)
-- [Setup API to interact with AAD B2C](/DotNetDocumentation/Security/Authentication/Authentication-in-a-single%2Dpage-application-using-AAD-B2C/Setup-API-to-interact-with-AAD-B2C)
+- [Setup API to interact with AAD B2C](https://github.com/brigitapop/azure-b2c-authentication-.net-api-react/blob/main/setup-api-to-interect-with-aad-b2c%20.md)
 
 
 

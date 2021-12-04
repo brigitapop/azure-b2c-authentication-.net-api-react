@@ -19,9 +19,9 @@ Before your applications can interact with Azure AD B2C, they must be registered
 
 After you have access to the tenant, register both react and API application: 
 
-- [Register ASP.Net Core API application](https://tfs17.evozon.com/tfs/DotNetDocumentation/DotNetDocumentation/_wiki/wikis/DotNetDocumentation.wiki/22/Register-API-application)
+- [Register ASP.Net Core API application](https://github.com/brigitapop/azure-b2c-authentication/blob/main/register-net-api-application.md)
 
-- [Register react front-end application](https://tfs17.evozon.com/tfs/DotNetDocumentation/DotNetDocumentation/_wiki/wikis/DotNetDocumentation.wiki/21/Register-react-single-page-application)
+- [Register react front-end application](https://github.com/brigitapop/azure-b2c-authentication/blob/main/register-react-client-application.md)
 
 
 The next step is to define the user interaction with the application. Azure AD B2C offers two methods of defining how users interact with the applications: through predefined user flows, or through fully configurable custom policies.

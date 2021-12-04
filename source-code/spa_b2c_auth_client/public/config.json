@@ -1,0 +1,9 @@
+{
+    "azure_b2c":{
+        "clientId": "6f8333fa-c844-44a9-85da-92118b7a0b54",
+        "authority": "https://azureb2cdocumentation.b2clogin.com/azureb2cdocumentation.onmicrosoft.com/B2C_1_SignUpIn",
+        "knownAuthorities": ["azureb2cdocumentation.b2clogin.com"],
+        "redirectUri": "http://localhost:3000",
+        "scopes": ["https://azureb2cdocumentation.onmicrosoft.com/6fb40fef-5d35-40bf-8dc3-b5d404de19f4/api.operations"]
+    }
+}

@@ -8,7 +8,7 @@ The single-page application is implemented in react and calls an API implemented
 
 
 The interaction between the single-page application and Azure AD B2C will look as in the diagram below: 
-![Azure-SPA.png](/.attachments/Azure-SPA-76460910-7f45-423f-a348-548981566788.png)
+https://github.com/brigitapop/azure-b2c-authentication/blob/main/diagram.png
 
 
 Before your applications can interact with Azure AD B2C, they must be registered in a tenant that you manage.

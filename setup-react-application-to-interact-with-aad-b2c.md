@@ -1,11 +1,11 @@
 # Setup react application to interact with AAD B2C
 
 After the [react application](https://reactjs.org/docs/create-a-new-react-app.html) is created, install [@azure/msal-react](https://www.npmjs.com/package/@azure/msal-react).
-Read [Getting Started](https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-react/docs/getting-started.md) documentation, it will help to easily understand the [POC](https://tfs17.evozon.com/tfs/DotNetDocumentation/DotNetDocumentation/_git/Authentication?path=%2Fspa_authentication_client).
+Read [Getting Started](https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-react/docs/getting-started.md) documentation, it will help to easily understand the [POC]
 
 [@azure/msal-react](https://www.npmjs.com/package/@azure/msal-react) is built on the React context API and all parts of the app that require authentication must be wrapped in the MsalProvider component. 
 
-In the POC a component, [AppProvider](https://tfs17.evozon.com/tfs/DotNetDocumentation/DotNetDocumentation/_git/Authentication?path=%2Fspa_b2c_auth_client%2Fsrc%2FAppProvider.js), that wraps the entire app was implemented.
+In the POC a component, [AppProvider], that wraps the entire app was implemented.
 ```javascript
   const pca = new PublicClientApplication(config);
         return (
@@ -15,7 +15,7 @@ In the POC a component, [AppProvider](https://tfs17.evozon.com/tfs/DotNetDocumen
         );
 ```
 
-In the [App](https://tfs17.evozon.com/tfs/DotNetDocumentation/DotNetDocumentation/_git/Authentication?path=%2Fspa_b2c_auth_client%2Fsrc%2FApp.js) component, it is checked if the user is authenticated and redirected to Azure B2C login page if it is not: 
+In the [App] component, it is checked if the user is authenticated and redirected to Azure B2C login page if it is not: 
 ```javascript
     useEffect(() => {
         async function loginRedirect() {
@@ -73,9 +73,9 @@ The configurations are added in the configuration file config.json
     }
 }
 ```
-_clientId_  => the id  of the application registred for the react application, see [Register react single-page application](https://tfs17.evozon.com/tfs/DotNetDocumentation/DotNetDocumentation/_wiki/wikis/DotNetDocumentation.wiki/21/Register-react-single-page-application) 
+_clientId_  => the id  of the application registred for the react application
 _authority_ => computed as https://{tenant-name}.b2clogin.com/{tenant-name}.onmicrosoft.com/{sign-in-policy-name}
 _knownAuthorities_ => the name of the tenant 
-_scopes_ => the API Permission added when [registered react single-page application](https://tfs17.evozon.com/tfs/DotNetDocumentation/DotNetDocumentation/_wiki/wikis/DotNetDocumentation.wiki/21/Register-react-single-page-application) 
+
 
 
